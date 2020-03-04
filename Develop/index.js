@@ -63,16 +63,9 @@ inquirer
           }
         ])
       ];
-      // const repoNamesStr = repoNames.join("\n");
-
-      // fs.writeFile("repos.txt", repoNamesStr, function(err) {
-      //   if (err) {
-      //     throw err;
-      //   }
-
-      //   console.log(`Saved ${repoNames.length} repos`);
-      // });
     });
+
+    
   });
 
 function writeToFile(fileName, data) {}
