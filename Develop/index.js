@@ -3,9 +3,10 @@ const axios = require("axios");
 const inquirer = require("inquirer");
 
 inquirer
-  .prompt({
-    message: "Enter your GitHub username:",
-    name: "username"
+  .prompt([{
+    type: "input",
+    name: "username",
+    message: "Enter your GitHub username:"
   },
   {
     type: "input",
@@ -51,15 +52,15 @@ inquirer
     name: "questions",
     message:
       "If users have any questions how do you want to handel them? This is the place to direct your user's possible questions"
-  })
+  }])
   //may need to change to ${username}
-  .then(function({ username }) {
-    const queryUrl = `https://api.github.com/users/${username}`;
+  .then(function(result) {
+    const queryUrl = `https://api.github.com/users/${result.username}`;
     
     axios.get(queryUrl).then(function(res) {
       
-      const photo = res.response.avatar_url;
-      const email = res.response.email;
+      const photo = res.result.avatar_url;
+      const email = res.result.email;
     
       return photo, email
     });
@@ -94,6 +95,7 @@ ${photo}
     ## Contact
     ${email}`
 
+    return md
   }) 
   
   fs.writeToFile("REAMDE.md", md, function(err){
