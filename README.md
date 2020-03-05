@@ -1,9 +1,9 @@
 # :boom: Welcome to SpencerFalor-Ward's goodReamDe :boom:
 
-<p align="center"> ![photo]https://avatars0.githubusercontent.com/u/56806215?v=4)
-</p>
+![photo](https://avatars0.githubusercontent.com/u/56806215?v=4)
 
-## goodReamDe![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
+
+## goodREAMDE![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
 
 A semi-automated README generator
 
@@ -41,6 +41,3 @@ None at this time.
 
 Message me on github or shoot me an email.
 
-## Contact
-
-null
