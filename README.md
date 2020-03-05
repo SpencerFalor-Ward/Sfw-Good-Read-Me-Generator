@@ -8,13 +8,13 @@ A semi-automated README generator
 
 ## Table of contents
 
-+[Installation](#Installation)
-+[Usage](#Usage)
-+[Liscence](#Liscence)
-+[Contributing](#Contributing)
-+[Test](#Test)
-+[Questions](#Questions)
-+[Contact](#Contact)
+-[Installation](#Installation)
+-[Usage](#Usage)
+-[Liscence](#Liscence)
+-[Contributing](#Contributing)
+-[Test](#Test)
+-[Questions](#Questions)
+-[Contact](#Contact)
 
 ## Installation
 
