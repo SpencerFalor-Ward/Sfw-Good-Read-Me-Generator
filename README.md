@@ -1,4 +1,4 @@
-# :boom: Welcome to SpencerFalor-Ward's goodReamDe :boom:
+# :boom: Welcome to SpencerFalor-Ward's goodREAMDE :boom:
 
 ![photo](https://avatars0.githubusercontent.com/u/56806215?v=4)
 
