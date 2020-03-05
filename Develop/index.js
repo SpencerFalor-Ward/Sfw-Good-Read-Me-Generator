@@ -24,7 +24,7 @@ inquirer
       type: "input",
       name: "installation",
       message:
-        "List specific steps, context (such as programming language) or dependencies that need to be installed manually."
+        "List specific steps, context (such as programming language) \nor dependencies that need to be installed manually.\n"
     },
     {
       type: "input",
@@ -57,18 +57,11 @@ inquirer
   //may need to change to ${username}
   .then(function(result) {
     const queryUrl = `https://api.github.com/users/${result.username}`;
-
+    //axios always needs to be .data
     axios.get(queryUrl).then(function(res) {
-      const photo = res.result.avatar_url;
-      const email = res.result.email;
-
-      return photo, email;
-    });
-    //might have to move onto the axios cb function
-  })
-  .then(function(result) {
-    console.log(result);
-    const md = `# :boom: Welcome to ${result.username}\'s goodReamDe :boom:
+      const photo = res.data.avatar_url;
+      const email = res.data.email;
+      const md = `# :boom: Welcome to ${result.username}\'s goodReamDe :boom:
 
 ${photo}
 
@@ -96,18 +89,11 @@ ${photo}
     ## Contact
     ${email}`;
 
-    fs.writeToFile("REAMDE.md", md, function(err) {
-      if (err) throw err;
-      console.log("Here's your REAMDE");
+      fs.writeFile("REAMDE.md", md, function(err) {
+        if (err) throw err;
+        console.log("Here's your REAMDE");
+      });
+      // return photo, email;
     });
-
-    return md;
+    //might have to move onto the axios cb function
   });
-
-//
-
-// function init() {}
-
-// init();
-
-// .get with axios and .then () with the data
