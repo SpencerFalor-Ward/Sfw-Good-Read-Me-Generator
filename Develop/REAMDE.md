@@ -1,27 +1,36 @@
-# :boom: Welcome to SpencerFalor-Ward's goodReamDe :boom:
+# :boom: Welcome to SpencerFalor-Ward's goodREAMDE :boom:
 
-https://avatars0.githubusercontent.com/u/56806215?v=4
+![photo](https://avatars0.githubusercontent.com/u/56806215?v=4)
 
-    ## t
-    t
+## HW-10-noteTaker ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
+An web based app to take, save and delete notes hosted on a local server
 
-    ## Installation
-    t
+## Table of contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Liscence](#Liscence)
+- [Contributing](#Contributing)
+- [Test](#Test)
+- [Questions](#Questions)
+- [Contact](#Contact)
 
-    ## Usage
-    t
+## Installation
+Node package manager using Express, Path and File system
 
-    ## Liscence
-    t
+## Usage
+Input a title, input the note, save and delete notes within the browser based app
 
-    ## Contributing
-    t
+## Liscence
+Na
 
-    ## Test
-    t
+## Contributing
+Anytime :)
 
-    ## Questions
-    t
+## Test
+No tests were written for this app
 
-    ## Contact
-    null
+## Questions
+git at me
+
+## Contact
+<null>(mailto:null)
