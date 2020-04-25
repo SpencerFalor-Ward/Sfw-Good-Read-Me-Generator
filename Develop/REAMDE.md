@@ -2,8 +2,8 @@
 
 ![photo](https://avatars0.githubusercontent.com/u/56806215?v=4)
 
-## HW-10-noteTaker ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
-An web based app to take, save and delete notes hosted on a local server
+## Eat Ah Burger![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
+A simple web based app for logging burger orders
 
 ## Table of contents
 - [Installation](#Installation)
@@ -15,19 +15,19 @@ An web based app to take, save and delete notes hosted on a local server
 - [Contact](#Contact)
 
 ## Installation
-Node package manager using Express, Path and File system
+npm install the following: mysql, express, express-handlebars
 
 ## Usage
-Input a title, input the note, save and delete notes within the browser based app
+input your order in the make an order field, then you can click "Devour It" to move the ordered burger over to the devoured list. Clicking delete at anytime will remove the burger from the either list
 
 ## Liscence
-Na
+NA
 
 ## Contributing
-Anytime :)
+Lets get burgers
 
 ## Test
-No tests were written for this app
+Tested with Postman
 
 ## Questions
 git at me
