@@ -39,5 +39,5 @@ None at this time.
 
 ## Questions
 
-Message me on github or shoot me an email.
+Message me on github or shoot me an email at SRPFW19@gmail.com
 
