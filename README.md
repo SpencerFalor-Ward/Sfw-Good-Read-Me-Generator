@@ -1,9 +1,9 @@
-# :boom: Welcome to SpencerFalor-Ward's [goodREAMDE](https://spencerfalor-ward.github.io/HW-8-goodReadMe/) :boom:
+# :boom: [Welcome to SpencerFalor-Ward's Good-REAMDE-Generator](https://spencerfalor-ward.github.io/HW-8-goodReadMe/) :boom:
 
 ![photo](https://avatars0.githubusercontent.com/u/56806215?v=4)
 
 
-## goodREAMDE ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
+[![Followers](https://img.shields.io/github/followers/SpencerFalor-Ward?style=social)](https://github.com/SpencerFalor-Ward?tab=followers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Language](https://img.shields.io/github/languages/top/SpencerFalor-Ward/Sfw-Good-Read-Me-Generator)](https://github.com/SpencerFalor-Ward/Sfw-Good-Read-Me-Generator/search?l=javascript) [![Latest Commit](https://img.shields.io/github/last-commit/SpencerFalor-Ward/Sfw-Good-Read-Me-Generator)](https://github.com/SpencerFalor-Ward/Sfw-Good-Read-Me-Generator/graphs/commit-activity)
 
 A semi-automated README generator
 
