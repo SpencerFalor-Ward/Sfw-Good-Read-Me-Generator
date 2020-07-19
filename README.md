@@ -11,7 +11,7 @@ A semi-automated README generator
 
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Liscence](#Liscence)
+- [License](#License)
 - [Contributing](#Contributing)
 - [Test](#Test)
 - [Questions](#Questions)
@@ -25,9 +25,9 @@ run npm i in your terminal and then run node index.js and answer the questions
 
 Answer the questions however you would like and they will populate the associated categories of your standard README so that you don'thave to worry about all the formating.
 
-## Liscence
+## License
 
-Like riding a bike... no license necessary
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license. 
 
 ## Contributing
 
